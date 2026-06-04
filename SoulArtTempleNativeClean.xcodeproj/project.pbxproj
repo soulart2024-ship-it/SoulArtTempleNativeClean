@@ -6,14 +6,125 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F0C53A12F897603000864C9 /* MoodBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C53A02F8975F6000864C9 /* MoodBackgroundView.swift */; };
+		4F0C53A32F899792000864C9 /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C53A22F899789000864C9 /* MoodStore.swift */; };
+		4F43C1812FADEED6008817F0 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43C1802FADEECB008817F0 /* PurchaseManager.swift */; };
+		4F43C1832FADEF8D008817F0 /* SessionCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43C1822FADEF86008817F0 /* SessionCounter.swift */; };
+		4F43C1852FADEFC5008817F0 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43C1842FADEFBE008817F0 /* PaywallView.swift */; };
+		4F43C18F2FAE3CA0008817F0 /* BreathingFlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43C18E2FAE3C93008817F0 /* BreathingFlowerView.swift */; };
+		4F55B3372F6C28480082C4A2 /* meridianSwipe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3362F6C28480082C4A2 /* meridianSwipe.mp4 */; };
+		4F55B3482F6C912D0082C4A2 /* chakra-balance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B33E2F6C912D0082C4A2 /* chakra-balance.mp3 */; };
+		4F55B3492F6C912D0082C4A2 /* tibetan-bowls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3462F6C912D0082C4A2 /* tibetan-bowls.mp3 */; };
+		4F55B34B2F6C912D0082C4A2 /* calm-meditation-with-nature-sound-357943 copy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B33D2F6C912D0082C4A2 /* calm-meditation-with-nature-sound-357943 copy.mp3 */; };
+		4F55B34C2F6C912D0082C4A2 /* healing-frequency.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3402F6C912D0082C4A2 /* healing-frequency.mp3 */; };
+		4F55B34D2F6C912D0082C4A2 /* nature-sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3422F6C912D0082C4A2 /* nature-sounds.mp3 */; };
+		4F55B34F2F6C912D0082C4A2 /* opening-chakras-with-water-intro-outro-fx-395549.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3432F6C912D0082C4A2 /* opening-chakras-with-water-intro-outro-fx-395549.mp3 */; };
+		4F55B3502F6C912D0082C4A2 /* peaceful-meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3442F6C912D0082C4A2 /* peaceful-meditation.mp3 */; };
+		4F55B3512F6C912D0082C4A2 /* Landing page music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F55B3412F6C912D0082C4A2 /* Landing page music.mp3 */; };
+		4F55B35D2F6C9B880082C4A2 /* FloatingMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F55B35C2F6C9B7A0082C4A2 /* FloatingMusicPlayer.swift */; };
+		4F6AB5422F9BCBEA0091E0D7 /* KinesiologyMiniCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6AB5412F9BCBBC0091E0D7 /* KinesiologyMiniCourse.swift */; };
+		4F8CBB8C2F6F14940019A74C /* RegulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CBB8B2F6F14880019A74C /* RegulationView.swift */; };
+		4F947F2E2F672A7D00546233 /* ColorMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F947F2D2F672A6D00546233 /* ColorMix.swift */; };
+		4F947F302F6730B900546233 /* FluidInkCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F947F2F2F6730AD00546233 /* FluidInkCanvas.swift */; };
+		4FD223D02F7C4A95003D02AE /* KinesiologyIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD223CF2F7C4A82003D02AE /* KinesiologyIntroView.swift */; };
+		4FE0A9962F63224700C27743 /* stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0A9952F63223F00C27743 /* stores.swift */; };
+		4FE0A99D2F6322A100C27743 /* TempleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0A99C2F63229600C27743 /* TempleHomeView.swift */; };
+		4FE0A99F2F6322B800C27743 /* DecodersHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0A99E2F6322A900C27743 /* DecodersHomeView.swift */; };
+		4FE0A9A32F63232500C27743 /* MusicLoungeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0A9A22F63231800C27743 /* MusicLoungeView.swift */; };
+		4FE0A9A52F63233B00C27743 /* MembersAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0A9A42F63232C00C27743 /* MembersAreaView.swift */; };
+		4FE0A9A72F63234E00C27743 /* GuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0A9A62F63234700C27743 /* GuidesView.swift */; };
+		4FE0AAC32F646E4800C27743 /* DecoderRoomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AAC22F646E3600C27743 /* DecoderRoomContainer.swift */; };
+		4FE0AAC52F64724000C27743 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AAC42F64722C00C27743 /* MusicPlayer.swift */; };
+		4FE0AACB2F64A5A000C27743 /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AACA2F64A59200C27743 /* ArtworkModel.swift */; };
+		4FE0AACD2F64A5DC00C27743 /* FluidCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AACC2F64A5CF00C27743 /* FluidCanvas.swift */; };
+		4FE0AACF2F64A62C00C27743 /* FluidArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AACE2F64A61D00C27743 /* FluidArtView.swift */; };
+		4FE0AAD12F64B73900C27743 /* PaintMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AAD02F64B72500C27743 /* PaintMode.swift */; };
+		4FE0AAD32F64C00100C27743 /* PaintStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE0AAD22F64BFF500C27743 /* PaintStroke.swift */; };
+		4FFC1BA32F85875B00A2D563 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC1BA22F85874500A2D563 /* EducationView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4F0C53A02F8975F6000864C9 /* MoodBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBackgroundView.swift; sourceTree = "<group>"; };
+		4F0C53A22F899789000864C9 /* MoodStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodStore.swift; sourceTree = "<group>"; };
+		4F43C1802FADEECB008817F0 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		4F43C1822FADEF86008817F0 /* SessionCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCounter.swift; sourceTree = "<group>"; };
+		4F43C1842FADEFBE008817F0 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		4F43C18E2FAE3C93008817F0 /* BreathingFlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingFlowerView.swift; sourceTree = "<group>"; };
+		4F55B3362F6C28480082C4A2 /* meridianSwipe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meridianSwipe.mp4; sourceTree = "<group>"; };
+		4F55B33D2F6C912D0082C4A2 /* calm-meditation-with-nature-sound-357943 copy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "calm-meditation-with-nature-sound-357943 copy.mp3"; sourceTree = "<group>"; };
+		4F55B33E2F6C912D0082C4A2 /* chakra-balance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "chakra-balance.mp3"; sourceTree = "<group>"; };
+		4F55B3402F6C912D0082C4A2 /* healing-frequency.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "healing-frequency.mp3"; sourceTree = "<group>"; };
+		4F55B3412F6C912D0082C4A2 /* Landing page music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Landing page music.mp3"; sourceTree = "<group>"; };
+		4F55B3422F6C912D0082C4A2 /* nature-sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nature-sounds.mp3"; sourceTree = "<group>"; };
+		4F55B3432F6C912D0082C4A2 /* opening-chakras-with-water-intro-outro-fx-395549.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "opening-chakras-with-water-intro-outro-fx-395549.mp3"; sourceTree = "<group>"; };
+		4F55B3442F6C912D0082C4A2 /* peaceful-meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "peaceful-meditation.mp3"; sourceTree = "<group>"; };
+		4F55B3462F6C912D0082C4A2 /* tibetan-bowls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tibetan-bowls.mp3"; sourceTree = "<group>"; };
+		4F55B35C2F6C9B7A0082C4A2 /* FloatingMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMusicPlayer.swift; sourceTree = "<group>"; };
+		4F6AB5412F9BCBBC0091E0D7 /* KinesiologyMiniCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinesiologyMiniCourse.swift; sourceTree = "<group>"; };
+		4F8CBB8B2F6F14880019A74C /* RegulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegulationView.swift; sourceTree = "<group>"; };
+		4F947F2D2F672A6D00546233 /* ColorMix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMix.swift; sourceTree = "<group>"; };
+		4F947F2F2F6730AD00546233 /* FluidInkCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidInkCanvas.swift; sourceTree = "<group>"; };
+		4FD223CF2F7C4A82003D02AE /* KinesiologyIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinesiologyIntroView.swift; sourceTree = "<group>"; };
 		4FE0A9792F63209800C27743 /* SoulArtTempleNativeClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulArtTempleNativeClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE0A9952F63223F00C27743 /* stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stores.swift; sourceTree = "<group>"; };
+		4FE0A99C2F63229600C27743 /* TempleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleHomeView.swift; sourceTree = "<group>"; };
+		4FE0A99E2F6322A900C27743 /* DecodersHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodersHomeView.swift; sourceTree = "<group>"; };
+		4FE0A9A22F63231800C27743 /* MusicLoungeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLoungeView.swift; sourceTree = "<group>"; };
+		4FE0A9A42F63232C00C27743 /* MembersAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersAreaView.swift; sourceTree = "<group>"; };
+		4FE0A9A62F63234700C27743 /* GuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidesView.swift; sourceTree = "<group>"; };
+		4FE0AAC22F646E3600C27743 /* DecoderRoomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderRoomContainer.swift; sourceTree = "<group>"; };
+		4FE0AAC42F64722C00C27743 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		4FE0AACA2F64A59200C27743 /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		4FE0AACC2F64A5CF00C27743 /* FluidCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidCanvas.swift; sourceTree = "<group>"; };
+		4FE0AACE2F64A61D00C27743 /* FluidArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidArtView.swift; sourceTree = "<group>"; };
+		4FE0AAD02F64B72500C27743 /* PaintMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintMode.swift; sourceTree = "<group>"; };
+		4FE0AAD22F64BFF500C27743 /* PaintStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintStroke.swift; sourceTree = "<group>"; };
+		4FFC1BA22F85874500A2D563 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F0C54F32F8C104C000864C9 /* Exceptions for "Guides" folder in "SoulArtTempleNativeClean" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FE0A9782F63209800C27743 /* SoulArtTempleNativeClean */;
+		};
+		4F0C54F42F8C114E000864C9 /* Exceptions for "SoulArtTempleNativeClean" folder in "SoulArtTempleNativeClean" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FE0A9782F63209800C27743 /* SoulArtTempleNativeClean */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4FE0A97B2F63209800C27743 /* SoulArtTempleNativeClean */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F0C54F42F8C114E000864C9 /* Exceptions for "SoulArtTempleNativeClean" folder in "SoulArtTempleNativeClean" target */,
+			);
 			path = SoulArtTempleNativeClean;
+			sourceTree = "<group>";
+		};
+		4FE0A9C42F63255E00C27743 /* Decoders */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Decoders;
+			sourceTree = "<group>";
+		};
+		4FE0AA2C2F632CDA00C27743 /* Guides */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F0C54F32F8C104C000864C9 /* Exceptions for "Guides" folder in "SoulArtTempleNativeClean" target */,
+			);
+			path = Guides;
+			sourceTree = "<group>";
+		};
+		4FE0AA342F632CEC00C27743 /* Tools */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +143,46 @@
 		4FE0A9702F63209800C27743 = {
 			isa = PBXGroup;
 			children = (
+				4FE0AAC22F646E3600C27743 /* DecoderRoomContainer.swift */,
+				4F55B3362F6C28480082C4A2 /* meridianSwipe.mp4 */,
+				4F55B33D2F6C912D0082C4A2 /* calm-meditation-with-nature-sound-357943 copy.mp3 */,
+				4F55B33E2F6C912D0082C4A2 /* chakra-balance.mp3 */,
+				4F55B3402F6C912D0082C4A2 /* healing-frequency.mp3 */,
+				4F55B3412F6C912D0082C4A2 /* Landing page music.mp3 */,
+				4F55B3422F6C912D0082C4A2 /* nature-sounds.mp3 */,
+				4F55B3432F6C912D0082C4A2 /* opening-chakras-with-water-intro-outro-fx-395549.mp3 */,
+				4F55B3442F6C912D0082C4A2 /* peaceful-meditation.mp3 */,
+				4F55B3462F6C912D0082C4A2 /* tibetan-bowls.mp3 */,
+				4FE0AA342F632CEC00C27743 /* Tools */,
+				4FE0AA2C2F632CDA00C27743 /* Guides */,
 				4FE0A97B2F63209800C27743 /* SoulArtTempleNativeClean */,
 				4FE0A97A2F63209800C27743 /* Products */,
+				4FE0A9952F63223F00C27743 /* stores.swift */,
+				4F43C18E2FAE3C93008817F0 /* BreathingFlowerView.swift */,
+				4FE0A99C2F63229600C27743 /* TempleHomeView.swift */,
+				4F8CBB8B2F6F14880019A74C /* RegulationView.swift */,
+				4FE0A99E2F6322A900C27743 /* DecodersHomeView.swift */,
+				4F0C53A02F8975F6000864C9 /* MoodBackgroundView.swift */,
+				4FE0A9A22F63231800C27743 /* MusicLoungeView.swift */,
+				4FE0AAC42F64722C00C27743 /* MusicPlayer.swift */,
+				4F55B35C2F6C9B7A0082C4A2 /* FloatingMusicPlayer.swift */,
+				4FE0A9A42F63232C00C27743 /* MembersAreaView.swift */,
+				4F6AB5412F9BCBBC0091E0D7 /* KinesiologyMiniCourse.swift */,
+				4F43C1802FADEECB008817F0 /* PurchaseManager.swift */,
+				4F43C1822FADEF86008817F0 /* SessionCounter.swift */,
+				4F43C1842FADEFBE008817F0 /* PaywallView.swift */,
+				4F0C53A22F899789000864C9 /* MoodStore.swift */,
+				4FFC1BA22F85874500A2D563 /* EducationView.swift */,
+				4FD223CF2F7C4A82003D02AE /* KinesiologyIntroView.swift */,
+				4FE0AACA2F64A59200C27743 /* ArtworkModel.swift */,
+				4FE0AACC2F64A5CF00C27743 /* FluidCanvas.swift */,
+				4F947F2F2F6730AD00546233 /* FluidInkCanvas.swift */,
+				4F947F2D2F672A6D00546233 /* ColorMix.swift */,
+				4FE0AAD22F64BFF500C27743 /* PaintStroke.swift */,
+				4FE0AAD02F64B72500C27743 /* PaintMode.swift */,
+				4FE0AACE2F64A61D00C27743 /* FluidArtView.swift */,
+				4FE0A9A62F63234700C27743 /* GuidesView.swift */,
+				4FE0A9C42F63255E00C27743 /* Decoders */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +211,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				4FE0A97B2F63209800C27743 /* SoulArtTempleNativeClean */,
+				4FE0A9C42F63255E00C27743 /* Decoders */,
+				4FE0AA2C2F632CDA00C27743 /* Guides */,
+				4FE0AA342F632CEC00C27743 /* Tools */,
 			);
 			name = SoulArtTempleNativeClean;
 			packageProductDependencies = (
@@ -78,7 +230,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2630;
+				LastUpgradeCheck = 2640;
 				TargetAttributes = {
 					4FE0A9782F63209800C27743 = {
 						CreatedOnToolsVersion = 26.3;
@@ -109,6 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F55B3372F6C28480082C4A2 /* meridianSwipe.mp4 in Resources */,
+				4F55B3482F6C912D0082C4A2 /* chakra-balance.mp3 in Resources */,
+				4F55B3492F6C912D0082C4A2 /* tibetan-bowls.mp3 in Resources */,
+				4F55B34B2F6C912D0082C4A2 /* calm-meditation-with-nature-sound-357943 copy.mp3 in Resources */,
+				4F55B34C2F6C912D0082C4A2 /* healing-frequency.mp3 in Resources */,
+				4F55B34D2F6C912D0082C4A2 /* nature-sounds.mp3 in Resources */,
+				4F55B34F2F6C912D0082C4A2 /* opening-chakras-with-water-intro-outro-fx-395549.mp3 in Resources */,
+				4F55B3502F6C912D0082C4A2 /* peaceful-meditation.mp3 in Resources */,
+				4F55B3512F6C912D0082C4A2 /* Landing page music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +280,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE0A99D2F6322A100C27743 /* TempleHomeView.swift in Sources */,
+				4F0C53A12F897603000864C9 /* MoodBackgroundView.swift in Sources */,
+				4F947F302F6730B900546233 /* FluidInkCanvas.swift in Sources */,
+				4FE0AACD2F64A5DC00C27743 /* FluidCanvas.swift in Sources */,
+				4F6AB5422F9BCBEA0091E0D7 /* KinesiologyMiniCourse.swift in Sources */,
+				4FE0AACF2F64A62C00C27743 /* FluidArtView.swift in Sources */,
+				4FD223D02F7C4A95003D02AE /* KinesiologyIntroView.swift in Sources */,
+				4F43C1852FADEFC5008817F0 /* PaywallView.swift in Sources */,
+				4F43C1812FADEED6008817F0 /* PurchaseManager.swift in Sources */,
+				4F55B35D2F6C9B880082C4A2 /* FloatingMusicPlayer.swift in Sources */,
+				4F8CBB8C2F6F14940019A74C /* RegulationView.swift in Sources */,
+				4FE0AAC32F646E4800C27743 /* DecoderRoomContainer.swift in Sources */,
+				4FE0A9A32F63232500C27743 /* MusicLoungeView.swift in Sources */,
+				4FE0A9962F63224700C27743 /* stores.swift in Sources */,
+				4F43C1832FADEF8D008817F0 /* SessionCounter.swift in Sources */,
+				4F947F2E2F672A7D00546233 /* ColorMix.swift in Sources */,
+				4FE0AACB2F64A5A000C27743 /* ArtworkModel.swift in Sources */,
+				4F43C18F2FAE3CA0008817F0 /* BreathingFlowerView.swift in Sources */,
+				4FE0AAC52F64724000C27743 /* MusicPlayer.swift in Sources */,
+				4FE0AAD32F64C00100C27743 /* PaintStroke.swift in Sources */,
+				4FFC1BA32F85875B00A2D563 /* EducationView.swift in Sources */,
+				4FE0AAD12F64B73900C27743 /* PaintMode.swift in Sources */,
+				4FE0A9A72F63234E00C27743 /* GuidesView.swift in Sources */,
+				4FE0A99F2F6322B800C27743 /* DecodersHomeView.swift in Sources */,
+				4FE0A9A52F63233B00C27743 /* MembersAreaView.swift in Sources */,
+				4F0C53A32F899792000864C9 /* MoodStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +371,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -241,6 +429,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -251,16 +440,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SoulArtTempleNativeClean/SoulArtTempleNativeClean.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62XV5PLP8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoulArtTempleNativeClean/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app saves your SoulArt creations to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,16 +477,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = SoulArtTempleNativeClean/SoulArtTempleNativeClean.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 62XV5PLP8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoulArtTempleNativeClean/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app saves your SoulArt creations to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

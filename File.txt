@@ -1,0 +1,3 @@
+   // 🟢 528hz (heart / restore)
+    FrequencyOrb(color: Color.green, label: "528hz") {
+        MusicPlayer.shared.playFrequency("528hz")
